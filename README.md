@@ -1,4 +1,4 @@
-# Basic TestNull
+# Basic TestMoreRefFun
 
 This tutorial demonstrates experiments, mostly of which are bad (but see how we delete from test3() and pointers in test4()). You can run into trouble trying to return references, though there are times you must (see later with OOP and the STL)
 
