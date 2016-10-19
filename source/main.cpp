@@ -78,8 +78,8 @@ int main() {
      *   stack    heap                                                                            *
      **********************************************************************************************/
 	
-     int goodInt = test3();   // what happens if you don't use an &? ( test3 refer to a temporary int which will be delete after calling the fucntion ) ***??? runtime failure?
-    // delete &goodInt;         // won't work. badInt is a copy of the allocated int, which is now lost forever; not sending the address of the value, sending back the value pointed by i
+     int goodInt = test3();		// what happens if you don't use an &? ( test3 refers to a temporary int which will be delete after calling the fucntion )
+    // delete &goodInt;         // won't work. goodInt is a copy of the allocated int, which is now lost forever; not sending the address of the value, sending back the value pointed by i
 	
 
     // Ways to avoid problems with references and avoid leaks: 
